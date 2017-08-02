@@ -1,0 +1,38 @@
+{
+  "name": "koa-p0f",
+  "version": "1.0.0",
+  "description": "Koa p0f middleware",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "koa",
+    "p0f"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birkestroem/koa-p0f.git"
+  },
+  "author": "Jesper Birkestrøm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/birkestroem/koa-p0f/issues"
+  },
+  "homepage": "https://github.com/birkestroem/koa-p0f#readme",
+  "dependencies": {
+    "ipaddr.js": "1.4.0",
+    "p0fclient-wrapper": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "4.3.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
